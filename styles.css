@@ -1,36 +1,10 @@
-.search-function{
-    margin: auto;
-    width: 60%;
-    padding: 70px 0;
-    text-align: center;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 5px 5px;
-  }
-li {
-    display: inline;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 14px 14px;
-}
-li a{
-    text-decoration: none;
-    color: black;
-
-    font-size:15px;
-}
-li a:hover{
-    text-decoration:underline;
-}
-
 .dashboard-image{
     border-radius: 50%;
     width:35px;
     border-color: white;
     border-width: 5px;
     border-style: solid;
-
+    vertical-align:middle
 }
 .dashboard-image:hover{
     background-color: #ebebeb;
@@ -38,15 +12,69 @@ li a:hover{
     border-width: 5px;
     border-style: solid;
 }
+.navigation-bar{
+    height: 55px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:15px;
+    padding-left:10px;
+}
+.navigation-left{
+    padding-top:0px;
+}
+.navigation-left a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.navigation-links:hover{
+    text-decoration:underline;
+}
+.navigation-right{
+    padding-top:0px;
+}
+.navigation-right a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    padding: 0px 5px;
+    text-decoration: none;
+}
 .profile-image{
     border-radius: 50%;
     width: 35px;
     border-color:white;
     border-width:5px;
     border-style:solid;
+    vertical-align: middle;
 }
 .profile-image:hover{
     border-color:#ebebeb;
     border-width: 5px;
     border-style: solid;
+}
+.search-function{
+    margin: auto;
+    width: 50%;
+    padding: 15px 0;
+    text-align: center;
+}
+.search-form{
+    border: 1px solid #ebebeb;
+    border-radius: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin: 15px;
+    padding: 10px;
+}
+input{
+    border:0;
+    width:85%;
+    font-size:15pt;
+}
+input:focus {
+    outline: 0;
 }

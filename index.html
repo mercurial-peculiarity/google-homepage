@@ -5,29 +5,31 @@
     <body>
         <header>
             <div class="navigation-bar">
-                <ul class="nav-items">
-                    <li style="float: left;"><a href="" id="about-link">About</a></li>
-                    <li style="float: left;"><a href="" id="store-link">Store</a></li>
-                    <li style="float: right;"><a href="" id="profile-link">
-                        <img src="/images/profile-icon.jpeg" class="profile-image"></a>
-                    </li>
-                    <li style="float: right;"><a href="" class="dashboard-link">
+                <div class="navigation-left">
+                    <a href="" id="about-link" class="navigation-links">About</a>
+                    <a href="" id="store-link" class="navigation-links">Store</a>
+                </div>
+                <div class="navigation-right">
+                    <a href="" id="gmail-link" class="navigation-links">Gmail</a>
+                    <a href="" id="images-link" class="navigation-links">Images</a>
+                    <a href="" class="dashboard-link">
                         <img src="images/dashboard-icon.png" class="dashboard-image"></a>
-                    </li>
-                    <li style="float: right;"><a href="" id="images-link">Images</a></li>
-                    <li style="float: right;"><a href="" id="gmail-link">Gmail</a></li>   
-                </ul>
+                    <a href="" id="profile-link">
+                        <img src="/images/profile-icon.jpeg" class="profile-image"></a>    
+                </div>
             </div>
         </header>
         <main>
             <div class="search-function">
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-                <br><br>
-                <form id="search-form">
+                <br>
+                <div class="search-form">
                     <input type="text" name="search-text" placeholder=""><br><br>
+                </div>
+                <div class="search-buttons">
                     <button type="button" name="search-button">Google Search</button>
                     <button type="button" name="random-button">I'm Feeling Lucky</button>
-                </form><br>
+                </div><br>
             </div>
         </main>  
     </body>
