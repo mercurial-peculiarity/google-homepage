@@ -5,3 +5,5 @@ The topics I have covered include:
     3. Create a README.md file
     4. I have learned how to use flex, padding and vertical-align to position text and objects
     5. I have learned how to hide the borders of a text box using border, and to hide the border of the focus box using outline
+    6. I have learned how to use box-shadow to create a drop shadow under the search buttons
+    
